@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 
 <!--
 //
@@ -50,11 +50,11 @@
 
   <!-- welcome screen (leave blank to skip screen) -->
   <item id="welcomeHead">Welcome!</item>
-  <item id="welcomeText"></item>
+  <item id="welcomeText">Please note: This is just a demo and no data will be stored. Thanks to Job van Exel, that we can use his survey as an example.{br}{br}Comments and bug reports are highly welcome.{br}{br}Please click on the continue-button.</item>
 
   <!-- user login, only displayed if access is restricted (see config-file) -->
   <item id="loginHead">User code</item>
-  <item id="loginText">Please enter your user code.{i}</item>
+  <item id="loginText">Please enter your user code. Please note, that in this demo any user code will be accepted.{br}{br}{i}Tip: This is an optional step and you can deactivate it in your own survey.{i}</item>
   <item id="loginFormHeader">User code</item>
   <item id="loginNoInput">Please insert your user code.</item>
   <item id="loginInvalidInput">User code invalid</item>
@@ -62,11 +62,11 @@
 
   <!-- introduction (leave blank to skip popup) -->
   <item id="introHead">Introduction</item>
-  <item id="introText">This study is about consent forms. We are interested in how you feel about consent forms used to gain your assent to participating in research.{br}{br}Please maximize your browser window and click on the continue-button to start the survey.</item>
+  <item id="introText">This study is about travel behaviour. We are interested in your attitude towards car and public transport as travel alternatives for middle-distance trips.{br}{br}Please maximize your browser window and click on the continue-button to start the survey.</item>
 
   <!-- step1: rough sorting into three piles (leave blank to skip popup)-->
   <item id="step1Head">Step 1 of 5</item>
-  <item id="step1Text">Read the following statements carefully and split them up into three piles: a pile for statements you tend to disagree with, a pile for cards you tend to agree with, and a pile for the rest.{br}{br}You can either drag the cards into one of the three piles or press 1, 2, 3 on your keyboard. Changes can be made later.{br}{br}If you want to read this instruction a second time, press the help-button at the bottom left corner.</item>
+  <item id="step1Text">Read the folowing statements carefully and split them up into three piles: a pile for statements you tend to disagree with, a pile for cards you tend to agree with, and a pile for the rest.{br}{br}You can either drag the cards into one of the three piles or press 1, 2, 3 on your keyboard. Changes can be made later.{br}{br}If you want to read this instruction a second time, press the help-button at the bottom left corner.</item>
 
   <!-- step2: sorting (leave blank to skip popup) -->
   <item id="step2Head">Step 2 of 5</item>
