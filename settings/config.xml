@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 
 <!--
 //
@@ -39,8 +39,6 @@
 
   <!-- HtmlQ only: disable the in-window back button -->
   <item id="disableBackButton">true</item>
-<!-- Make the font of the cards smaller so that users can read more of the text -->
-    <item id="smallFont">true</item>
 
   <!-- define form elements for step5; only displayed if showStep5 is true (delete tags if not required) -->
   <!-- add label: <label>[STRING]</label> -->
@@ -49,13 +47,24 @@
   <!-- optional attributes: bg, id, maxlength, restricted, required, scale  -->
   <item id="form">
     <label>Age*</label>
-	<note>Please enter your age.</note>
-	<input type="text" required="true" maxlength="3" restricted="18-99"></input>
+	<note>Please enter your year of birth (YYYY, eg. 1980).</note>
+	<input type="text" required="true" maxlength="4" restricted="0-9"></input>
 
     <label>Gender*</label>
 	<note>Please select your gender.</note>
 	<input type="radio" required="true">female;male</input>
 
+    <label>Please answer the following questions.</label>
+	<input type="rating2" required="false" scale="Yes;No;">There's a car in my household;I own a car for myself</input>
+
+    <label>What kind of transportation do you use?</label>
+	<input type="checkbox" required="false">Car;Railroad;Bike</input>
+
+    <label>What kind of transportation do you prefer?</label>
+	<input type="select" required="false">Car;Railroad;Bike</input>
+
+    <label>Comments</label>
+	<input type="textarea" required="false"></input>
 
     <note bg="false">All fields marked with an * are mandatory.</note>
   </item>
