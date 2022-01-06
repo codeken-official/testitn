@@ -27,7 +27,7 @@
 
         <!-- welcome screen (leave blank to skip screen) -->
         <item id="welcomeHead">Welcome!</item>
-        <item id="welcomeText">This is a demo project on consent forms commonly used in research studies.{br}{br}{b}** Important Information **{/b}{br}For this survey you will need as much screen space as possible!{br}{br}If necessary, please {b}MAXIMIZE{/b} the size of your browser window, {b}{i}reload{/i}{/b} this web page, and click on the "Continue" button to start the survey.</item>
+        <item id="welcomeText">For this survey, you should assume you are using an Internet-enabled online service{br}{br}{b}** Important Information **{/b}{br}For this survey you will need as much screen space as possible!{br}{br}If necessary, please {b}MAXIMIZE{/b} the size of your browser window, {b}{i}reload{/i}{/b} this web page, and click on the "Continue" button to start the survey.</item>
 
         <!-- user login, only displayed if access is restricted (see config-file) -->
         <item id="loginHead">Access Code</item>
@@ -39,8 +39,8 @@
         <item id="loginNoConnection">Connection to server failed. Please try again.</item>
 
         <!-- introduction (leave blank to skip popup) -->
-        <item id="introHead">Introduction</item>
-        <item id="introText">This study is about the consent forms participants sign when participating in research studies</item>
+        <item id="introHead">This survey explores your opinions on online services that gain your consent to store and use your data. </item>
+        <item id="introText">You will see some statements - indicate your agreement/disagreement</item>
 
         <!-- step1: rough sorting into three piles (leave blank to skip popup)-->
         <item id="step1Head">Step 1 of 5</item>
@@ -68,7 +68,7 @@
 
         <!-- data transfer, only displayed if submitUrl is not blank (see config-file) -->
         <item id="transferHead">Submit Data</item>
-        <item id="transferText">You've finished the survey. Please submit your data now.</item>
+        <item id="transferText">You've finished the survey. Please submit your responses now so that we can pay you on Prolific.</item>
         <item id="transferFailed">Data submission failed. Please try again.</item>
-        <item id="transferOk">Thank you for using Easy HTMLQ!{br}{br}You can now close your browser window.</item>   
+        <item id="transferOk">Thank you for your responses!{br}{br}You can now return to Qualtrics. Enter confirmation code: Cj-376-RUB</item>   
    </language>
