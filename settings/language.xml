@@ -26,8 +26,8 @@
         <item id="errorWindowTooSmall">Please maximize your browser for using this application.</item>
 
         <!-- welcome screen (leave blank to skip screen) -->
-        <item id="welcomeHead">Welcome!</item>
-        <item id="welcomeText">For this survey, you should assume you are using an Internet-enabled online service.{br} They want to use your data and want to gain your consent to do so{br}{br}{b}** Important Information **{/b}{br}For this survey you will need as much screen space as possible!{br}{br}If necessary, please {b}MAXIMIZE{/b} the size of your browser window, {b}{i}reload{/i}{/b} this web page, and click on the "Continue" button to start the survey.</item>
+        <item id="welcomeHead">Welcome! For this survey, you should assume you are using an Internet-enabled online service.{br}</item>
+        <item id="welcomeText">They want you to consent to their storing and using your data.{br}{br}{b}** Important Information **{/b}{br}For this survey you will need as much screen space as possible!{br}{br}If necessary, please {b}MAXIMIZE{/b} the size of your browser window, {b}{i}reload{/i}{/b} this web page, and click on the "Continue" button to start the survey.</item>
 
         <!-- user login, only displayed if access is restricted (see config-file) -->
         <item id="loginHead">Access Code</item>
@@ -67,7 +67,7 @@
         <item id="step5Text">Finally, please answer the following questions regarding your background.</item>
 
         <!-- data transfer, only displayed if submitUrl is not blank (see config-file) -->
-        <item id="transferHead">Submit Data</item>
+        <item id="transferHead">Submit my Responses and get Confirmation Code</item>
         <item id="transferText">You've finished the survey. Please submit your responses now so that we can pay you on Prolific.</item>
         <item id="transferFailed">Data submission failed. Please try again.</item>
         <item id="transferOk">Thank you for your responses!{br}{br}You can now return to Qualtrics. Enter confirmation code: Cj-376-RUB</item>   
