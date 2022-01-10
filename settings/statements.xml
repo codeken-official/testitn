@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
    <statements version="1.0" htmlParse="false">
-     <statement id="1"> In my experience, consent forms contain too much information  </statement>
-     <statement id="2">In my experience, consent forms are easy to understand </statement>
+     <statement id="1"> In my experience, consent forms contain too much information</statement>
+     <statement id="2">In my experience, consent forms are easy to understand</statement>
      <statement id="3">Consent forms never confuse me</statement>
      <statement id="4">In my experience, consent forms are too vague </statement>
      <statement id="5">I often feel pressured into signing consent forms</statement>
@@ -14,16 +14,16 @@
      <statement id="11">Consent forms should be as simple as possible</statement>
      <statement id="12">Consent forms should include both text and pictures</statement>
      <statement id="13">I would like to be able to confirm what a company is doing with my data</statement>
-     <statement id="14">I would liketo see only essential information, with more on request</statement>
+     <statement id="14">I would like to see only essential information, with more on request</statement>
      <statement id="15">If companies behave ethically, consent forms should only contain essential information</statement>
-     <statement id="16">Consent forms exist to prevent people from exercising their rights</statement>
+     <statement id="16">Consent forms exist to prevent people from exercising their rights according to privacy law</statement>
      <statement id="17">Consent forms are a hurdle to be overcome </statement>
      <statement id="18">Consent forms are informative</statement>
      <statement id="19">Sometimes consent forms look like back-covering exercises</statement>
-     <statement id="20">Consent forms focus on my needs</statement>
-     <statement id="21">I am reassured if I'm told a security professional has checked the company’s assurances </statement>
-     <statement id="22">I am reassured if I'm told ethical hackers were not able to break into their systems </statement>
-     <statement id="23">I find it helpful to know what percentage of users are happy with the way the company stores and uses data  </statement>
+     <statement id="20">Consent forms focus on my need to protect my privacy</statement>
+     <statement id="21">I am reassured if I'm told a security professional has checked that the company protects my data </statement>
+     <statement id="22">I am reassured if I'm told ethical hackers were not able to break into the company's systems </statement>
+     <statement id="23">I find it helpful to know what percentage of users are happy with the way the company stores and uses their data  </statement>
      <statement id="24">I am reassured by examples making it clear how the company's practices impact me  </statement>
-     <statement id="25">I would like to ask questions before signing a consent form  </statement>
+     <statement id="25">I would like to ask a person questions before signing a consent form  </statement>
    </statements>
