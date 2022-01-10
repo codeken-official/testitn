@@ -70,5 +70,5 @@
         <item id="transferHead">Submit my Responses and get Confirmation Code</item>
         <item id="transferText">You've finished the survey. Please submit your responses now so that we can pay you on Prolific.</item>
         <item id="transferFailed">Data submission failed. Please try again.</item>
-        <item id="transferOk">Thank you for your responses!{br}{br}You can now return to Qualtrics. Enter confirmation code: Cj-376-RUB</item>   
+        <item id="transferOk">Thank you for your responses!{br}{br}You can now return to Qualtrics. {br}{br}Your confirmation code: Cj-376-RUB{br}{br}Please copy this confirmation code by highlighting the code's text and then typing CONTROL/C or clicking with the right mouse button and then selecting Copy.{br}{br}Then return to Qualtrics, where you will be asked to paste/enter your confirmation code</item>   
    </language>
