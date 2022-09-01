@@ -1,29 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
    <statements version="1.0" htmlParse="false">
-     <statement id="1"> My government does not want to spend money to help its citizens with cyber related matters</statement>
-     <statement id="2">I believe my government wants what is best for me in terms of my cyber well-being</statement>
-     <statement id="3">My government is concerned about my cyber welfare and would not knowingly do anything to hurt me</statement>
-     <statement id="4">My government only really looks out for themselves </statement>
-     <statement id="5">If I were to have cyber-related problems with my devices, my government would want to offer me assistance and support </statement>
-     <statement id="6">My government would be capable at making informed cyber related decisions on my behalf</statement>
-     <statement id="7">	I am uncertain about how capable my government would be at managing my cyber well-being (i.e., online safety and security)</statement>
-     <statement id="8">Governments these days have fantastic cyber abilities – they are definitely capable of helping citizens</statement>
-     <statement id="9">Government units are always being hacked – not that capable</statement>
-     <statement id="10">I feel the current government, all in all, is competent and doing a very good job.</statement>
-     <statement id="11">I would trust my government to have my best interests in mind and to secure my devices for me</statement>
-     <statement id="12">I am not confident with IT, so cybersecurity is a real challenge</statement>
-     <statement id="13">I am not confident with IT so I need more support with my cybersecurity</statement>
-     <statement id="14">When an important cyber issue or problem arises, I would feel comfortable depending on my government</statement>
-     <statement id="15">Based on my experience with the my government in the past, I know they provide good services. </statement>
-     <statement id="16">If I fail to secure my online information and devices, it is no one else’s fault</statement>
-     <statement id="17">If I were to experience a cyber-attack I would blame myself </statement>
-     <statement id="18">I am not a child – I do not need someone else to help me with my cyber well-being (i.e., online safety and security) </statement>
-     <statement id="19">My government wants to place its citizens under surveillance, so why would I let them take responsibility for my cyber well-being (i.e., online safety and security)? </statement>
-     <statement id="20">My government tells so many lies that I would not let them onto my devices</statement>
-     <statement id="21">Children learn about cybersecurity at school but senior citizens need more government support</statement>
-     <statement id="22">Everyone is vulnerable to cyber attacks regardless of age </statement>
-     <statement id="23">The underlying technology is insecure – my government needs to hold technology providers accountable  </statement>
-     <statement id="24">We need to incentivise technology providers to make our devices more secure – they are the ones who can do it </statement>
-     <statement id="25">I am not interested in cybersecurity </statement>
+     <statement id="1">I know where to get reliable cybersecurity advice</statement>
+     <statement id="2">I think the UK government provides helpful cybersecurity advice to parents</statement>
+     <statement id="3">I can act upon the cybersecurity advice I am given by the UK government </statement>
+     <statement id="4">My child's teacher is well informed about cybersecurity </statement>
+     <statement id="5">Cybersecurity academics are aware of the latest cybersecurity precautions</statement>
+     <statement id="6">I would be happy to accept cybersecurity advice from family support workers/family liaison officers </statement>
+     <statement id="7">	The UK government provides helpful cybersecurity advice</statement>
+     <statement id="8">I would be happy to accept cybersecurity advice from cybersecurity academics</statement>
+     <statement id="9">When I receive cybersecurity advice from my child's school, I act on it</statement>
+     <statement id="10">I feel confident in educating my child(ren) about cybersecurity precautions and good practice</statement>
+     <statement id="11"> I am uncertain about different cybersecurity practices</statement>
+     <statement id="12">I am happy with how technology providers currently assure my child's cybersecurity</statement>
+     <statement id="13">I think technology providers could be doing more to provide better cyber security controls for children</statement>
+     <statement id="14">The UK government needs to enforce higher cybersecurity standards from technology providers</statement>
+     <statement id="15">The UK government should not meddle with the way technology providers deal assure cybersecurity </statement>
+     <statement id="16">There are plenty of cybersecurity resources for parents, schools do not need to get involved</statement>
+     <statement id="17">I would blame myself if my child's cybersecurity was compromised</statement>
+     <statement id="18">I think children need to take responsibility for their online cyber security actions </statement>
+     <statement id="19">I am not an expert, it is up to my child's educators to teach them about cybersecurity.</statement>
+     <statement id="20">The UK government should take ultimate responsibility for protecting my child's cybersecurity</statement>
+     <statement id="21">Hackers are not targeting children online so they don’t need to learn about cybersecurity until they are adults</statement>
+     <statement id="22">Parents should figure out how to teach their children about cybersecurity without help from anyone else </statement>
+     <statement id="23">I am confident in my ability to teach my children about cybersecurity
+ </statement>
+     <statement id="24">I do not have confidence in the UK government’s ability to help me teach my child about cybersecurity </statement>
+     <statement id="25">Parents should be responsible for teaching their children about cybersecurity </statement>
    </statements>

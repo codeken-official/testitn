@@ -26,8 +26,8 @@
         <item id="errorWindowTooSmall">Please maximize your browser for using this application.</item>
 
         <!-- welcome screen (leave blank to skip screen) -->
-        <item id="welcomeHead">Welcome! For this survey, you should assume you are using  Internet-enabled online services.{br}</item>
-        <item id="welcomeText">There are many cyber criminals who want to compromise your accounts.{br}{br}{b}** Important Information **{/b}{br}For this survey you will need as much screen space as possible!{br}{br}If necessary, please {b}MAXIMIZE{/b} the size of your browser window, {b}{i}reload{/i}{/b} this web page, and click on the "Continue" button to start the survey.</item>
+        <item id="welcomeHead">Welcome! For this survey, you should assume your children are using  Internet-enabled online services.{br}</item>
+        <item id="welcomeText">There are many cyber criminals who want to compromise their accounts and they need to learn about cybersecurity "best principles".{br}{br}{b}** Important Information **{/b}{br}For this survey, you will need as much screen space as possible!{br}{br}If necessary, please {b}MAXIMIZE{/b} the size of your browser window, {b}{i}reload{/i}{/b} this web page, and click on the "Continue" button to start the survey.</item>
 
         <!-- user login, only displayed if access is restricted (see config-file) -->
         <item id="loginHead">Access Code</item>
@@ -39,12 +39,12 @@
         <item id="loginNoConnection">Connection to server failed. Please try again.</item>
 
         <!-- introduction (leave blank to skip popup) -->
-        <item id="introHead">This survey explores your opinions on the extent to which your government supports you in terms of cybersecurity. </item>
+        <item id="introHead">This survey explores your opinions on how children should learn cybersecurity "best principles". </item>
         <item id="introText">You will see some statements - indicate your agreement/disagreement</item>
 
         <!-- step1: rough sorting into three piles (leave blank to skip popup)-->
         <item id="step1Head">Step 1 of 5</item>
-        <item id="step1Text">Read the following statements about government support  and split them up into three piles: a pile for statements you tend to DISAGREE with, a pile for cards you tend to AGREE with, and a pile for the rest.{br}{br}You can either drag the cards into one of the three piles or {b}press 1, 2, 3{/b} on your keyboard. Changes can be made later.{br}{br}If you want to read this instruction a second time, press the help-button at the bottom right corner.</item>
+        <item id="step1Text">Read the following statements about educating children about cybersecurity  and split them up into three piles: a pile for statements you tend to DISAGREE with, a pile for cards you tend to AGREE with, and a pile for the rest.{br}{br}You can either drag the cards into one of the three piles or {b}press 1, 2, 3{/b} on your keyboard. Changes can be made later.{br}{br}If you want to read this instruction a second time, press the help-button at the bottom right corner.</item>
 
         <!-- step2: sorting (leave blank to skip popup) -->
         <item id="step2Head">Step 2 of 5</item>
