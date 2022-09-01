@@ -70,5 +70,5 @@
         <item id="transferHead">Submit my Responses and return to Prolific</item>
         <item id="transferText">You've finished the survey. Please submit your responses now so that we can pay you on Prolific.</item>
         <item id="transferFailed">Data submission failed. Please try again.</item>
-        <item id="transferOk">Thank you for your responses! {br}{br}{b}Click on this link to return to Prolific: {br}{br}{a href="https://app.prolific.co/submissions/complete?cc=762DB27C"}https://app.prolific.co/submissions/complete?cc=762DB27C{/a}{/b}</item>   
+        <item id="transferOk">Thank you for your responses! {br}{br}{b}Click on this link to return to Prolific: {br}{br}{a href="https://app.prolific.co/submissions/complete?cc=C3Z9NJLU"}https://app.prolific.co/submissions/complete?cc=C3Z9NJLU{/a}{/b}</item>   
    </language>
