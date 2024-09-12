@@ -7,9 +7,9 @@
         <item id="btnContinue">Continue...</item>
         <item id="btnclose">Close</item>
         <item id="btnHelp">Help me!</item>
-        <item id="btnAgreement">Agree</item>
+        <item id="btnAgreement">Most Impact</item>
         <item id="btnNeutral">Neutral</item>
-        <item id="btnDisagreement">Disagree</item>
+        <item id="btnDisagreement">Least Impact</item>
         <item id="btnTransfer">Submit data</item>
         <item id="btnExit">Exit</item>
         <item id="selectItem">Please select...</item>
@@ -40,7 +40,7 @@
 
         <!-- introduction (leave blank to skip popup) -->
         <item id="introHead">Introduction</item>
-        <item id="introText">This study is about ways governments can improve the cybersecurity of their citizens. {br}{br}</item>
+        <item id="introText">We need your help to rank the impact of different government interventions. {br}{br}</item>
 
         <!-- step1: rough sorting into three piles (leave blank to skip popup)-->
         <item id="step1Head">Step 1 of 5</item>
