@@ -1,5 +1,4 @@
-
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html
   xmlns:ng="http://angularjs.org"
   id="ng-app"
@@ -13,9 +12,12 @@
     <!-- <meta http-equiv="cache-control" content="no-cache" /> -->
     <meta http-equiv="expires" content="0" />
     <meta http-equiv="pragma" content="no-cache" />
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="0">
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
     <title>Easy HtmlQ</title>
 
     <script src="src/jquery.min.js" type="text/javascript"></script>
@@ -35,15 +37,15 @@
     <script src="src/xml2json.min.js" type="text/javascript"></script>
     <script src="src/jsonpath.js" type="text/javascript"></script>
     <script src="src/underscore-min.js" type="text/javascript"></script>
-    
+
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-database.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-auth.js"></script>
-    
-    <script>const firebaseConfig = {
 
-  apiKey: "AIzaSyAdJAStdz-fMYJm7gWfj_x4LsAEtFUeBRc",
+    <script>
+      var firebaseConfig = {
+apiKey: "AIzaSyAdJAStdz-fMYJm7gWfj_x4LsAEtFUeBRc",
 
   authDomain: "consent-karen.firebaseapp.com",
 
@@ -57,10 +59,11 @@
 
   appId: "1:1015427854119:web:414ea2fe69450333028302"
 
-};
+      };
+      firebase.initializeApp(firebaseConfig);
+      var rootRef = firebase.database().ref();
+    </script>
 
-  firebase.initializeApp(firebaseConfig);  var rootRef = firebase.database().ref();  </script>;
-    
     <script src="src/htmlq.js" type="text/javascript"></script>
 
     <link
@@ -71,7 +74,6 @@
     />
     <link rel="stylesheet" href="stylesheets/bootstrap.min.css" />
     <link rel="stylesheet" href="stylesheets/htmlq.css" />
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

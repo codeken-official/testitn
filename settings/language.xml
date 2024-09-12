@@ -26,49 +26,47 @@
         <item id="errorWindowTooSmall">Please maximize your browser for using this application.</item>
 
         <!-- welcome screen (leave blank to skip screen) -->
-        <item id="welcomeHead">Welcome! For this survey, you should assume your children are using  Internet-enabled online services.{br}</item>
-        <item id="welcomeText">There are many cyber criminals who want to compromise their accounts and they need to learn about cybersecurity "best principles".{br}{br}{b}** Important Information **{/b}{br}For this survey, you will need as much screen space as possible!{br}{br}If necessary, please {b}MAXIMIZE{/b} the size of your browser window, {b}{i}reload{/i}{/b} this web page, and click on the "Continue" button to start the survey.</item>
+        <item id="welcomeHead">Welcome!</item>
+        <item id="welcomeText">This is a study into how Governments should support citizens when it comes to cybersecurity.{br}{br}{b}** Important Information **{/b}{br}For this survey you will need as much screen space as possible!{br}{br}If necessary, please {b}MAXIMIZE{/b} the size of your browser window, {b}{i}reload{/i}{/b} this web page, and click on the continue-button to start the survey.</item>
 
         <!-- user login, only displayed if access is restricted (see config-file) -->
         <item id="loginHead">Access Code</item>
-        <item id="loginText">Please enter the access code for this survey.</item>
+        <item id="loginText">Please enter the access code for this survey. {br}{br}</item>
         <item id="loginFormHeader">Access Code</item>
         <item id="loginPartIdText">Your name or survey id number</item>
-        <item id="loginNoInput">Please enter the access code.</item>
+        <item id="loginNoInput">Please insert the access code.</item>
         <item id="loginInvalidInput">Access code invalid</item>
         <item id="loginNoConnection">Connection to server failed. Please try again.</item>
 
         <!-- introduction (leave blank to skip popup) -->
-        <item id="introHead">This survey explores your opinions on how children should learn cybersecurity "best principles". </item>
-        <item id="introText">You will see some statements - indicate your agreement/disagreement</item>
+        <item id="introHead">Introduction</item>
+        <item id="introText">This study is about ways governments can improve the cybersecurity of their citizens. {br}{br}</item>
 
         <!-- step1: rough sorting into three piles (leave blank to skip popup)-->
         <item id="step1Head">Step 1 of 5</item>
-        <item id="step1Text">Read the following statements about educating children about cybersecurity  and split them up into three piles: a pile for statements you tend to DISAGREE with, a pile for cards you tend to AGREE with, and a pile for the rest.{br}{br}You can either drag the cards into one of the three piles or {b}press 1, 2, 3{/b} on your keyboard. Changes can be made later.{br}{br}If you want to read this instruction a second time, press the help-button at the bottom right corner.</item>
+        <item id="step1Text">Read the folowing statements carefully and split them up into three piles: a pile for statements you tend to disagree with, a pile for cards you tend to agree with, and a pile for the rest.{br}{br}You can either drag the cards into one of the three piles or {b}press 1, 2, 3{/b} on your keyboard. Changes can be made later.{br}{br}If you want to read this instruction a second time, press the help-button at the bottom left corner.</item>
 
         <!-- step2: sorting (leave blank to skip popup) -->
         <item id="step2Head">Step 2 of 5</item>
-        <item id="step2Text">Take the cards from the "AGREE"-pile and arrange them on the right side of the score sheet.{br}{br}Next, take the cards from the "DISAGREE"-pile and arrange them on the left side of the score sheet. Follow this procedure for all cards in the "AGREE"- and "DISAGREE"-piles.{br}{br}Finally, take the "NEUTRAL"-cards arrange them in the remaining open boxes of the score sheet.{br}{br}If you get stuck, please close the Browser window and start again.</item>
-        <item id="step2CondOfInstruc">Please rate your agreement with the following statements. {br}{b}DO NOT MOVE them once you've positioned them. You will have the opportunity to do that next{/b}</item>
-        <item id="step2TextSizeLabel">Text</item>
+        <item id="step2Text">Take the cards from the "AGREE"-pile and arrange them on right side of the score sheet.{br}{br}Next, take the cards from the "DISAGREE"-pile and arrange them on the left side of the score sheet. Follow this procedure for all cards in the "AGREE"- and "DISAGREE"-piles.{br}{br}Finally, take the "NEUTRAL"-cards arange them in the remaining open boxes of the score sheet.</item>
+        <item id="step2CondOfInstruc">Sort according to intervention impact on society's cybersecurity</item>
         
-
         <!-- step3: check sorting, only displayed if showStep3== true (see config-file; leave blank to skip popup)-->
         <item id="step3Head">Step 3 of 5</item>
-        <item id="step3Text">Now you have placed all cards on the score sheet. Please go over your distribution once more and swap card positions if desired.</item>
-        <item id="step3CondOfInstruc">Please check your rating of agreement with the following statements and swap them if you like</item>
+        <item id="step3Text">Now you have placed all cards on the score sheet. Please go over your distribution once more and swap card positions cards if desired.</item>
+        <item id="step3CondOfInstruc">Sort according to intervention impact on society's cybersecurity</item>
 
         <!-- step4: comments on best/worst rated statements, only displayed if showStep4== true (see config-file; leave blank to skip popup) -->
         <item id="step4Head">Step 4 of 5</item>
-        <item id="step4Text">Please explain why you agreed most or disagreed most with the following statements</item>
+        <item id="step4Text">Please explain why you agree most or disagree most with the following statements you have placed below "+4" or "-4".{br}{br}</item>
 
         <!-- step5: dditional questions, only displayed if showStep5== true (see config-file; leave blank to skip popup)-->
         <item id="step5Head">Step 5 of 5</item>
-        <item id="step5Text">Finally, please answer the following questions regarding your background.</item>
+        <item id="step5Text">Finally, please answer the following questions regarding your background.{br}{br}</item>
 
         <!-- data transfer, only displayed if submitUrl is not blank (see config-file) -->
-        <item id="transferHead">Submit my Responses and return to Prolific</item>
-        <item id="transferText">You've finished the survey. Please submit your responses now so that we can pay you on Prolific.</item>
+        <item id="transferHead">Submit Data</item>
+        <item id="transferText">You've finished the survey. Please submit your data now.</item>
         <item id="transferFailed">Data submission failed. Please try again.</item>
-        <item id="transferOk">Thank you for your responses! {br}{br}{b}Click on this link to return to Prolific: {br}{br}{a href="https://app.prolific.co/submissions/complete?cc=C3Z9NJLU"}https://app.prolific.co/submissions/complete?cc=C3Z9NJLU{/a}{/b}</item>   
+        <item id="transferOk">Thank you for your participation!{br}{br}You can now close your browser window.</item>   
    </language>

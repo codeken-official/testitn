@@ -1,4 +1,5 @@
-.col-centered {
+
+  .col-centered {
   float: none;
   margin: 0 auto;
 }
@@ -142,16 +143,6 @@ pre-sort stack at bottom of step #1 (see above for gray container)
   padding: 0;
 }
 
-#step2 .sorted-statements .sortable {
-  height: 115px;
-  background-color: white;
-  border: 1px solid;
-  overflow-x: hidden;
-  overflow-y: scroll;
-  padding: 0;
-}
-
-
 /* styles for disagree-neutral-agree pre-sort stack at bottom of sort page
    step #1 custom height
 -------------------------------------------------- */
@@ -283,13 +274,6 @@ li.disagree {
 }
 
 #step5 div.question-note {
-  background-color: #ede04d;
-  font-size: 1.2em;
-  margin-bottom: 5px;
-  padding: 10px 25px;
-}
-
-#step5 div.question-note-bg {
   background-color: #fafafa;
   font-size: 1.2em;
   margin-bottom: 5px;
@@ -317,10 +301,6 @@ li.disagree {
 
 #step5 div.question-input textarea {
   width: 100%;
-}
-
-#step5 .step5SubmitButton {
-  margin-top: 25px;
 }
 
 #submit {
@@ -363,8 +343,7 @@ li.disagree {
   .grid td {
     vertical-align: top;
     padding: 0;
-    font-size: 19px;
-    line-height: 1.2em;
+    font-size: 18px;
   }
 }
 
@@ -373,8 +352,7 @@ li.disagree {
   .grid td {
     vertical-align: top;
     padding: 0;
-    line-height: 1.2em;
-    font-size: 17px;
+    font-size: 16px;
   }
 }
 
@@ -383,8 +361,7 @@ li.disagree {
   .grid td {
     vertical-align: top;
     padding: 0;
-    line-height: 1.2em;
-    font-size: 15px;
+    font-size: 14px;
     /* font-size: 1.2vh; */
   }
 }
@@ -394,7 +371,6 @@ li.disagree {
   .grid td {
     vertical-align: top;
     padding: 0;
-    line-height: 1.2em;
     font-size: 13px;
     /* font-size: 1.4vh; */
   }
@@ -405,7 +381,6 @@ li.disagree {
   .grid td {
     vertical-align: top;
     padding: 0;
-    line-height: 1.2em;
     font-size: 11px;
     /* font-size: 1.4vh; */
   }
@@ -416,11 +391,11 @@ li.disagree {
   .grid td {
     vertical-align: top;
     padding: 0;
-    line-height: 1.2em;
     font-size: 10px;
     /* font-size: 0.8vh; */
   }
 }
+
 
 @media (hover: none) and (min-width: 1366px) {
   .grid td {
@@ -432,6 +407,7 @@ li.disagree {
   }
 }
 
+
 @media (hover: none) and (max-width: 1024px) {
   .grid td {
     vertical-align: top;
@@ -442,6 +418,11 @@ li.disagree {
   }
 }
 
+
+
+
+
+
 .grid-heading {
   display: flex;
   justify-content: space-between;
@@ -450,15 +431,14 @@ li.disagree {
 
 /* "Disagree  Agree" text for table heading */
 .tableLabelText {
-  font-size: 1.4em !important;
+  font-size: 1.5em !important;
   color: gray;
   font-weight: bold;
 }
 
 .tableLableCenterText {
   margin: 0 auto;
-  font-size: 1.4em !important;
-  line-height: 1.2em;
+  font-size: 1.5em !important;
   color: white;
 }
 /* Conditions of Instruction - editable from config.xml 
@@ -496,7 +476,7 @@ li.disagree {
   position: absolute;
   top: 0;
   left: 0;
-  font-size: 3em;
+  font-size: 0.6em;
   font-weight: bolder;
   text-align: center;
   background-color: rgb(200, 200, 200);
@@ -592,11 +572,5 @@ body {
 .userNameDiv {
   margin-top: 25px;
   margin-bottom: 25px;
-}
-
-/* Prevent bootstrap-caused page shifting on modal open
----------------------------------------------*/
-body.modal-open {
-  overflow: auto;
 }
   

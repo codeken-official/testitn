@@ -1,30 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
    <statements version="1.0" htmlParse="false">
-     <statement id="1">I know where to get reliable cybersecurity advice</statement>
-     <statement id="2">I think the UK government provides helpful cybersecurity advice to parents</statement>
-     <statement id="3">I can act upon the cybersecurity advice I am given by the UK government </statement>
-     <statement id="4">My child's teacher is well informed about cybersecurity </statement>
-     <statement id="5">Cybersecurity academics are aware of the latest cybersecurity precautions</statement>
-     <statement id="6">I would be happy to accept cybersecurity advice from family support workers/family liaison officers </statement>
-     <statement id="7">	The UK government provides helpful cybersecurity advice</statement>
-     <statement id="8">I would be happy to accept cybersecurity advice from cybersecurity academics</statement>
-     <statement id="9">When I receive cybersecurity advice from my child's school, I act on it</statement>
-     <statement id="10">I feel confident in educating my child(ren) about cybersecurity precautions and good practice</statement>
-     <statement id="11"> I am uncertain about different cybersecurity practices</statement>
-     <statement id="12">I am happy with how technology providers currently assure my child's cybersecurity</statement>
-     <statement id="13">I think technology providers could be doing more to provide better cyber security controls for children</statement>
-     <statement id="14">The UK government needs to enforce higher cybersecurity standards from technology providers</statement>
-     <statement id="15">The UK government should not meddle with the way technology providers deal assure cybersecurity </statement>
-     <statement id="16">There are plenty of cybersecurity resources for parents, schools do not need to get involved</statement>
-     <statement id="17">I would blame myself if my child's cybersecurity was compromised</statement>
-     <statement id="18">I think children need to take responsibility for their online cyber security actions </statement>
-     <statement id="19">I am not an expert, it is up to my child's educators to teach them about cybersecurity.</statement>
-     <statement id="20">The UK government should take ultimate responsibility for protecting my child's cybersecurity</statement>
-     <statement id="21">Hackers are not targeting children online so they don’t need to learn about cybersecurity until they are adults</statement>
-     <statement id="22">Parents should figure out how to teach their children about cybersecurity without help from anyone else </statement>
-     <statement id="23">I am confident in my ability to teach my children about cybersecurity
- </statement>
-     <statement id="24">I do not have confidence in the UK government’s ability to help me teach my child about cybersecurity </statement>
-     <statement id="25">Parents should be responsible for teaching their children about cybersecurity </statement>
+     <statement id="1">Provision of online advice</statement>
+     <statement id="2">Public campaigns to raise awareness  </statement>
+     <statement id="3">Community outreach/campaigns </statement>
+     <statement id="4">Cybersecurity Outreach/Campaigns</statement>
+     <statement id="5">Awareness campaigns targetting children </statement>
+     <statement id="6">Awareness campaigns targetting adults/parents </statement>
+     <statement id="7">Awareness campaigns targetting seniors </statement>
+     <statement id="8">Awareness campaigns targetting software developers </statement>
+     <statement id="9">Best practice advice for software developers</statement>
+     <statement id="10">Development of Secure Software Development Framework </statement>
+     <statement id="11">Online advice about recovering from cybercrime</statement>
+     <statement id="12">Apps to give people tailored cybersecurity advice</statement>
+     <statement id="13">Specialists at community centres to give cybersecurity advice</statement>
+     <statement id="14">Telephone hotline to accept anonymous cybercrime reports</statement>
+     <statement id="15">Online portals to accept anonymous cybercrime reports</statement>
+     <statement id="16">Specialist cybercrime police at local stations to accept cybercrime reports</statement>
+     <statement id="17">Online advice for recovering from cybercrime </statement>
+     <statement id="18">Online portals fielding Q+A for recovering from cybercrime</statement>
+     <statement id="19">Offering citizens digital skills qualifications</statement>
+     <statement id="20">Local support centres to help citizens implement preventive measures</statement>
+     <statement id="21">Provide citizens with an app to help them detect vulnerabilities on their device</statement>
+     <statement id="22">Country Wide Cyber Incidents Response Team </statement>
+     <statement id="23">Provision of tools to help citizens behave securely, e.g., password manager </statement>
+     <statement id="24">Creation of local support network to offer direct cyber support </statement>
+     <statement id="25">Establishment of advisory group/cybersecurity central authority </statement>
+     <statement id="26">Legislation establishing liability for software products and services </statement>
+     <statement id="27">Cybersecurity certification for apps </statement>
+     <statement id="28">Ensuring government cybersecurity advice appears when Googling for advice</statement>
+     <statement id="29">Provision of details of current and recent exploits to forewarn and forearm </statement>
+     <statement id="30">Funding for cybersecurity research </statement>
+     <statement id="31">Including cybersecurity in school curriculums</statement>
+     <statement id="32">Vocational cybersecurity education</statement>
+     <statement id="33">Including cybersecurity in University curriculums</statement>
+     <statement id="34">Government standards for secure IT products and services</statement>
    </statements>

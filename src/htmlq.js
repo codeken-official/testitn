@@ -65,7 +65,7 @@ angular
       $stateProvider
         .state("error", {
           template:
-            '<div class="container"><div class="row" style="margin-top: 35px;"><div class="col-xs-8 col-xs-offset-2 alert alert-danger"><p>An error occurred while opening your survey. Due to improved browser security measures, it is no longer possible to view these files by double clicking on index.html. To view and test your file setup, please use Easy HTMLQ Configurator.</p></div></div></div>',
+            '<div class="container"><div class="row" style="margin-top: 35px;"><div class="col-xs-8 col-xs-offset-2 alert alert-danger"><p>An error occured while opening your survey. Due to improved browser security measures, it is no longer possible to view these files by double clicking on index.html. To view and test your file setup, please use Easy HTMLQ Configurator.</p></div></div></div>',
         })
         .state("root", {
           abstract: true,
@@ -394,26 +394,6 @@ angular
       $scope.configXml = configXml;
       $scope.duration = Duration;
 
-      // error catching for addition of font size button label to language file
-      // due to eq configurator version change
-      var fontSizeButtonText = language.step2TextSizeLabel;
-      if (fontSizeButtonText === undefined || fontSizeButtonText === null) {
-        $scope.language.step2TextSizeLabel = $sce.trustAsHtml("Text");
-      }
-
-      function getURLParameter(name) {
-        return (
-          decodeURIComponent(
-            (new RegExp("[?|&]" + name + "=" + "([^&;]+?)(&|#|;|$)").exec(
-              location.search
-            ) || [, ""])[1].replace(/\+/g, "%20")
-          ) || null
-        );
-      }
-
-      const urlId = getURLParameter("userCode");
-      $scope.urlId = urlId;
-
       var isFirefox = navigator.userAgent.toLowerCase().indexOf("firefox") > -1;
 
       var viewHeight = window.innerHeight - 300;
@@ -429,13 +409,7 @@ angular
         viewWidth = 960;
       }
 
-      var setConstantCardWidth = config.setConstantCardWidth;
-      if (setConstantCardWidth === true || setConstantCardWidth === "true") {
-        var constantCardWidth = config.constantCardWidth;
-        $scope.viewWidth = constantCardWidth * map.column.length;
-      } else {
-        $scope.viewWidth = viewWidth;
-      }
+      $scope.viewWidth = viewWidth;
 
       var longestColumn = _.last(
         _.sortBy(map.column, function (column) {
@@ -443,13 +417,7 @@ angular
         })
       );
 
-      var setConstantCardHeight = config.setConstantCardHeight;
-      if (setConstantCardHeight === true || setConstantCardHeight === "true") {
-        var constantCardHeight = config.constantCardHeight;
-        $scope.cellHeight = constantCardHeight;
-      } else {
-        $scope.cellHeight = viewHeight / parseInt(longestColumn.__text, 10);
-      }
+      $scope.cellHeight = viewHeight / parseInt(longestColumn.__text, 10);
 
       $scope.textAlignRight = config.textAlign === "right";
 
@@ -473,31 +441,6 @@ angular
           };
         }
       }
-
-      // insert text font size control functions
-      angular.element(document).ready(function () {
-        // Increase Font Size
-        $(".increase").click(function () {
-          var currentSize = $(".fontAdjust").css("font-size");
-          var newSize = parseFloat(currentSize) + 1;
-          $(".fontAdjust").css("font-size", newSize);
-          return false;
-        });
-
-        // Decrease Font Size
-        $(".decrease").click(function () {
-          // var currentFontSize = $(".fontAdjust").css("font-size");
-          var currentSize = $(".fontAdjust").css("font-size");
-          var newSize = parseFloat(currentSize) - 1;
-          if (newSize < 6) {
-            newSize = 6;
-          }
-          $(".fontAdjust").css("font-size", newSize);
-          return false;
-        });
-      });
-
-      $(".showFontAdjust").hide();
 
       // initialize survey
       var doc = $.parseXML(configXml);
@@ -615,7 +558,7 @@ angular
           }
         }
 
-        // statements in grid are rated
+        // stementents in grid are rated
         for (var i = 0; i < inGrid.length; i++) {
           if (inGrid[i]) {
             current++;
@@ -1101,27 +1044,9 @@ angular
                 return;
               }
 
-              // to prevent error when 2 drop zones highlighted during drop
-              var previousTimeStamp = localStorage.getItem("previousTimeStamp");
-              if (Math.trunc(event.timeStamp) === +previousTimeStamp) {
-                $log.info("cancelled");
-                return;
-              }
-              localStorage.setItem(
-                "previousTimeStamp",
-                Math.trunc(event.timeStamp)
-              );
-
               var dragElement = angular
                 .element(ui.draggable.get())
                 .isolateScope();
-
-              // to prevent error when 2 drop zones highlighted during drop
-              if (dragElement === undefined) {
-                ui.draggable.remove();
-                $log.info("cancelled");
-                return;
-              }
 
               // we're empty, add dragged statement to cell
               scope.$apply(function () {
@@ -1222,8 +1147,6 @@ angular
     "$scope",
     "$state",
     function (config, language, UserCode, $http, $scope, $state) {
-      $(".showFontAdjust").hide();
-
       $scope.showNameInput = config.partNameRequired;
       $scope.user = {};
 
@@ -1334,8 +1257,6 @@ angular
       $scope,
       $state
     ) {
-      $(".showFontAdjust").hide();
-
       $scope.help = function () {
         MessageModal.show(
           messageHead,
@@ -1461,8 +1382,6 @@ angular
       $rootScope,
       $state
     ) {
-      $(".showFontAdjust").show();
-
       $scope.help = function () {
         MessageModal.show(
           messageHead,
@@ -1545,8 +1464,6 @@ angular
       $rootScope,
       $state
     ) {
-      $(".showFontAdjust").show();
-
       $scope.help = function () {
         MessageModal.show(
           messageHead,
@@ -1606,8 +1523,6 @@ angular
       $rootScope,
       $state
     ) {
-      $(".showFontAdjust").hide();
-
       $scope.help = function () {
         MessageModal.show(
           messageHead,
@@ -1668,8 +1583,6 @@ angular
       $rootScope,
       $state
     ) {
-      $(".showFontAdjust").hide();
-
       $scope.help = function () {
         MessageModal.show(
           messageHead,
@@ -1774,8 +1687,6 @@ angular
       $stateParams,
       $log
     ) {
-      $(".showFontAdjust").hide();
-
       function makeSortString(sortedStatements) {
         var sorted = [];
         for (var i = 0; i < sortedStatements.length; i++) {
@@ -1816,23 +1727,13 @@ angular
         };
 
         if (config.partId === null || config.partId === undefined) {
-          config.partId = "---";
+          config.partId = "";
         }
-        ret.userInputId = config.partId;
+        ret.participantId = config.partId;
 
-        if ($scope.urlId && $scope.urlId.length > 0) {
-          console.log($scope.urlId);
-          ret.urlUserCode = $scope.urlId;
-        } else {
-          ret.urlUserCode = "---";
+        if (UserCode.userCode && UserCode.userCode.length > 0) {
+          ret.uid = UserCode.userCode;
         }
-
-        if (config.loginPassword && config.loginPassword.length > 0) {
-          ret.accessCode = config.loginPassword;
-        } else {
-          ret.accessCode = "---";
-        }
-
         for (var i = 0; i < SortedStatements.grid[0].length; i++) {
           var statement = SortedStatements.grid[0][i].statement;
           ret["comment" + statement._id] =
@@ -1877,24 +1778,7 @@ angular
         });
       }
 
-      function debounce(func, wait, immediate) {
-        var timeout;
-        return function () {
-          var context = this,
-            args = arguments;
-          var later = function () {
-            timeout = null;
-            if (!immediate) func.apply(context, args);
-          };
-          var callNow = immediate && !timeout;
-          clearTimeout(timeout);
-          timeout = setTimeout(later, wait);
-          if (callNow) func.apply(context, args);
-        };
-      }
-
       function submitViaFirebase() {
-        $scope.buttonClicked = true;
         var results = makeParamsObject();
 
         for (var i in results) {
@@ -1920,13 +1804,11 @@ angular
             });
           })
           .catch((error) => {
-            $scope.buttonClicked = false;
             var errorCode = error.code;
             var errorMessage = error.message;
             // ...
             console.log(errorCode, errorMessage);
           });
-        console.log("submit processed");
       }
 
       $scope.submitViaHttp = function () {
@@ -1936,7 +1818,7 @@ angular
         } else if (config["submitUrlMethod"].toLowerCase() === "post") {
           promise = submitViaPost();
         } else {
-          debounce(submitViaFirebase(), 3000, true);
+          submitViaFirebase();
           return;
         }
 

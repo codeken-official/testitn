@@ -1,33 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-   <config version="1.1.1" htmlParse="false">
+   <config version="1.0" htmlParse="false">
 
      <!-- title of the study -->
-     <item id="studyTitle">CONSENT</item>
+     <item id="studyTitle">my study wow</item>
 
      <!-- text-align property(left|right) -->
      <item id="textAlign">left</item>
 
-     <!-- shuffle cards (true|false) (4) -->
+     <!-- shuffle cards (true|false)  -->
      <item id="shuffleCards">true</item>
 
-     <!-- access code required (true|false) (5) -->
+     <!-- login required (true|false) -->
      <item id="loginrequired">false</item>
-     <item id="clearCachePassword">cleareqmobilecache</item>
      <!-- login with common password (leave blank if not required) -->
-     <item id="loginPassword"></item>
+     <item id="loginPassword">go</item>
     <item id="partNameRequired">true</item>
-      <!-- Use login script -->
-     <item id="useLogInScript">false</item>
       <!-- URL to individual login script(leave blank if not required) -->
      <item id="loginUrl"></item>
      <!-- request mode (post|get) -->
      <item id="loginUrlMethod"></item>
 
-     <item id="setConstantCardHeight">false</item>
-     <item id="constantCardHeight">150</item>
-     <item id="setConstantCardWidth">false</item>
-     <item id="constantCardWidth">200</item>
      <!-- activate/deactivate optional steps (true|false) -->
      <item id="showStep3">true</item>
      <item id="showStep4">true</item>
@@ -42,13 +35,16 @@
      <!-- add input-field: <input type="[text|textarea|radio|select|checkbox|rating2|rating5|rating10]">[VALUE]</input> -->
      <!-- optional attributes: bg, id, maxlength, restricted, required, scale  -->
      <item id="form">
-        <label>Age</label>
-        <note>Please provide your age</note>
-        <input type="text" required="false" maxlength="3" ></input>
+        <label>Age*</label>
+        <note>Please enter your age.</note>
+        <input type="text" required="true" maxlength="3" restricted="0-9"></input>
 
-        <label>Gender?</label>
-        <input type="select" required="false">Male;Female;Other;Prefer not to say</input>
 
+        <label>Gender*</label>
+        <note>Please enter your gender</note>
+        <input type="radio" required="true">male;female;other</input>
+
+        <note bg="false">Fields marked with an * are mandatory</note>
      </item>
 
      <!-- URL for data transmission via POST/GET (leave blank if not required) -->
