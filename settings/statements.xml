@@ -1,38 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
    <statements version="1.0" htmlParse="false">
-     <statement id="1">Provision of online advice</statement>
+     <statement id="1">Provision of online advice for cybercrime prevention</statement>
      <statement id="2">Public campaigns to raise awareness  </statement>
-     <statement id="3">Community outreach/campaigns </statement>
-     <statement id="4">Cybersecurity Outreach/Campaigns</statement>
-     <statement id="5">Awareness campaigns targetting children </statement>
-     <statement id="6">Awareness campaigns targetting adults/parents </statement>
-     <statement id="7">Awareness campaigns targetting seniors </statement>
+     <statement id="3">Community outreach campaigns </statement>
+     <statement id="4">Cybersecurity outreach campaigns</statement>
+     <statement id="5">Awareness campaigns targeting children </statement>
+     <statement id="6">Awareness campaigns targeting adults/parents </statement>
+     <statement id="7">Awareness campaigns targeting seniors </statement>
      <statement id="8">Awareness campaigns targetting software developers </statement>
      <statement id="9">Best practice advice for software developers</statement>
-     <statement id="10">Development of Secure Software Development Framework </statement>
+     <statement id="10">Development of Secure Software Development Framework</statement>
      <statement id="11">Online advice about recovering from cybercrime</statement>
      <statement id="12">Apps to give people tailored cybersecurity advice</statement>
      <statement id="13">Specialists at community centres to give cybersecurity advice</statement>
      <statement id="14">Telephone hotline to accept anonymous cybercrime reports</statement>
      <statement id="15">Online portals to accept anonymous cybercrime reports</statement>
      <statement id="16">Specialist cybercrime police at local stations to accept cybercrime reports</statement>
-     <statement id="17">Online advice for recovering from cybercrime </statement>
+     <statement id="17"> Dissemination of the latest cyber attacks targeting software developers</statement>
      <statement id="18">Online portals fielding Q+A for recovering from cybercrime</statement>
      <statement id="19">Offering citizens digital skills qualifications</statement>
      <statement id="20">Local support centres to help citizens implement preventive measures</statement>
      <statement id="21">Provide citizens with an app to help them detect vulnerabilities on their device</statement>
-     <statement id="22">Country Wide Cyber Incidents Response Team </statement>
+     <statement id="22">Countrywide Cyber Incidents Response Team </statement>
      <statement id="23">Provision of tools to help citizens behave securely, e.g., password manager </statement>
      <statement id="24">Creation of local support network to offer direct cyber support </statement>
      <statement id="25">Establishment of advisory group/cybersecurity central authority </statement>
-     <statement id="26">Legislation establishing liability for software products and services </statement>
+     <statement id="26">Legislation establishing liability for insecure software products and services </statement>
      <statement id="27">Cybersecurity certification for apps </statement>
-     <statement id="28">Ensuring government cybersecurity advice appears when Googling for advice</statement>
+     <statement id="28">Ensuring official government cybersecurity advice appears first on Google</statement>
      <statement id="29">Provision of details of current and recent exploits to forewarn and forearm </statement>
      <statement id="30">Funding for cybersecurity research </statement>
      <statement id="31">Including cybersecurity in school curriculums</statement>
      <statement id="32">Vocational cybersecurity education</statement>
      <statement id="33">Including cybersecurity in University curriculums</statement>
      <statement id="34">Government standards for secure IT products and services</statement>
+      <statement id="35"> Cybersecurity requirements in government agency contracts </statement>
+<statement id="36"> Offering citizens cyber skills qualifications</statement>
+
    </statements>
