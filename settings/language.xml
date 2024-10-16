@@ -40,7 +40,7 @@
 
         <!-- introduction (leave blank to skip popup) -->
         <item id="introHead">Introduction</item>
-        <item id="introText">We need your help to rank the helpfulness of different government interventions. {br}{br}to reduce the risk of cyber attacks to individuals and organisations and help them recover more quickly.</item>
+        <item id="introText">We need your help to rank the helpfulness of different government interventions {br}to reduce the risk of cyber attacks to individuals and organisations and help them recover more quickly.</item>
 
         <!-- step1: rough sorting into three piles (leave blank to skip popup)-->
         <item id="step1Head">Step 1 of 5</item>
