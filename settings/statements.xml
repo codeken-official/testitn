@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
    <statements version="1.0" htmlParse="false">
-     <statement id="1">Users tend not to be visible during development</statement>
+     <statement id="1">Users tend not to be visible during software development</statement>
      <statement id="2">Software developers have little experience accommodating accessibility needs</statement>
-     <statement id="3">Accessibility does not occur to developers</statement>
-     <statement id="4">Expense prevents accessibility being built into software</statement>
+     <statement id="3">Accessibility does not occur to software developers</statement>
+     <statement id="4">Cost prevents accessibility being built into software</statement>
      <statement id="5">Time pressure prevents accessibility being built into software</statement>
      <statement id="6">Some organizations do not prioritise accessibility</statement>
-     <statement id="7">Accessibility does not inform cybersecurity feature design</statement>
+     <statement id="7">Accessibility is not considering during cybersecurity design</statement>
      <statement id="8">Software developers focus on privacy and security compliance, not accessibility</statement>
-     <statement id="9">Software developers are particularly aware of vision impairments</statement>
-     <statement id="10">Software developers often accommodate colour blindness</statement>
-     <statement id="11">Software developers ensure that text is readable</statement>
+     <statement id="9">Software developers factor in vision impairments</statement>
+     <statement id="10">Software developers often design for colour blindness</statement>
+     <statement id="11">Software developers ensure that text can be enlarged</statement>
      <statement id="12">Software developers accommodate multiple languages</statement>
-     <statement id="13">Software developers not given accessibility directives</statement>
+     <statement id="13">Software developers are not given accessibility directives</statement>
      <statement id="14">Businesses do not value accessibility</statement>
      <statement id="15">Quality Control focuses on assessing functionality</statement>
      <statement id="16">Quality Control focuses on assessing ease of use</statement>
      <statement id="17">Accessibility is seen as an add-on in software development </statement>
      <statement id="18">Accessibility not a consideration during software specification writing</statement>
-     <statement id="19">It is difficult to test for accessibility/inclusivity</statement>
-     <statement id="20">There are no accessibility/inclusivity tools for software developers to use</statement>
+     <statement id="19">It is difficult to test for accessibility</statement>
+     <statement id="20">There are no accessibility tools for software developers to use</statement>
      <statement id="21">Software Developers build software for users like themselves</statement>
-     <statement id="22">Disabled Software Developers are usually accommodated</statement>
-     <statement id="23">Usability testing ensures ease-of-use of features </statement>
+     <statement id="22">There are tools to build accessible software but adoption is low</statement>
+     <statement id="23"> Accessibility is related to the ease of use of software</statement>
      <statement id="24">Software Specifications should include accessibility requirements</statement>
      <statement id="25">Quality Control should check accessibility requirements</statement>
      <statement id="26">Usability testers should check accessibility requirements</statement>
-     <statement id="27">UX testers should check accessibility requirements</statement>
+     <statement id="27">Inclusivity refers to all features being implemented</statement>
      <statement id="28">Regulations should enforce accessibility requirements</statement>
-     <statement id="29">Usability testers should consider inclusivity of software</statement>
-     <statement id="30">Software requirements seldom include accessibility requirements</statement>
-     <statement id="31">Software requirements seldom include inclusivity requirements</statement>
+     <statement id="29"> Smaller organisations cannot afford software accessibility</statement>
+     <statement id="30"> Inclusivity and accessibility are not included in software professional education</statement>
+     <statement id="31"> Software developers assume users can read well</statement>
      <statement id="32">Accessibility and Inclusivity are the same thing</statement>
      <statement id="33">Awareness of the need for accessibility and inclusivity needs to come from the top</statement>
-     <statement id="34">Software specifications seldom include accessibility requirements</statement>
+     <statement id="34">Software developers assume users have access to the Internet </statement>
       <statement id="35">Software customers seldom mandate accessibility</statement>
 <statement id="36">Software developers focus on functionality and ease of use – not accessibility</statement>
 
