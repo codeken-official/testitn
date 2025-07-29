@@ -3,7 +3,7 @@
    <config version="1.0" htmlParse="false">
 
      <!-- title of the study -->
-     <item id="studyTitle">my study wow</item>
+     <item id="studyTitle">Accessibility Study</item>
 
      <!-- text-align property(left|right) -->
      <item id="textAlign">left</item>
