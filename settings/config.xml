@@ -45,6 +45,10 @@
         <note>Please enter your gender</note>
         <input type="radio" required="true">male;female;other</input>
 
+                <label>ParticipantID*</label>
+        <note>Please enter your participant id</note>
+       <input type="text" required="true" maxlength="10"></input>
+
         <note bg="false">Fields marked with an * are mandatory</note>
      </item>
 
