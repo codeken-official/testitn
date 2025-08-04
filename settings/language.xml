@@ -7,9 +7,9 @@
         <item id="btnContinue">Continue...</item>
         <item id="btnclose">Close</item>
         <item id="btnHelp">Help me!</item>
-        <item id="btnAgreement">Most Helpful</item>
+        <item id="btnAgreement">Strongly Agree</item>
         <item id="btnNeutral">Neutral</item>
-        <item id="btnDisagreement">Least Helpful</item>
+        <item id="btnDisagreement">Strongly Disagree</item>
         <item id="btnTransfer">Submit data</item>
         <item id="btnExit">Exit</item>
         <item id="selectItem">Please select...</item>
