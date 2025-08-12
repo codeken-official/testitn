@@ -18,7 +18,7 @@
      <statement id="15">Quality Control focuses on assessing functionality</statement>
      <statement id="16">Quality Control focuses on assessing ease of use</statement>
      <statement id="17">Accessibility is seen as an add-on in software development </statement>
-     <statement id="18">Accessibility not a consideration during software specification writing</statement>
+     <statement id="18">Accessibility is not a consideration during software specification writing</statement>
      <statement id="19">It is difficult to test for accessibility</statement>
      <statement id="20">There are no accessibility tools for software developers to use</statement>
      <statement id="21">Software Developers build software for users like themselves</statement>
@@ -33,7 +33,7 @@
      <statement id="30"> Inclusivity and accessibility are not included in software professional education</statement>
      <statement id="31"> Software developers assume users can read well</statement>
      <statement id="32">Accessibility and Inclusivity are the same thing</statement>
-     <statement id="33">Awareness of the need for accessibility and inclusivity needs to come from managers</statement>
+     <statement id="33">Awareness of the need for accessibility and inclusivity to come from managers</statement>
      <statement id="34">Software developers assume users have access to the Internet </statement>
       <statement id="35">Software customers seldom mandate accessibility</statement>
 <statement id="36">Software developers focus on functionality and ease of use – not accessibility</statement>
