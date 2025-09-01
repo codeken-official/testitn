@@ -33,7 +33,7 @@
               ng-repeat="col in map.column"
               ng-style="{'background-color': '#' + col._colour, width: viewWidth/map.column.length}"
             >
-              <b>{{ col._id }}</b>
+              <b>{{ col._label }}</b> <b>({{ col._id }})</b>
             </td>
           </tr>
           <tr>

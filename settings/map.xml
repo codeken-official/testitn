@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!-- -4	Least Preferred
+-3	Strongly Dislike
+-2	Dislike
+-1	Somewhat Dislike
+0	No Preference / Neutral
++1	Somewhat Like
++2	Like
++3	Strongly Like
++4	Most Preferred -->
    <map version="1.0" htmlParse="false">
-     <column id="-4" colour="FFD5D5">2</column>
-     <column id="-3" colour="FFD5D5">3</column>
-     <column id="-2" colour="FFD5D5">4</column>
-     <column id="-1" colour="FFD5D5">5</column>
-     <column id="0" colour="E9E9E9">8</column>
-     <column id="1" colour="9FDFBF">5</column>
-     <column id="2" colour="9FDFBF">4</column>
-     <column id="3" colour="9FDFBF">3</column>
-     <column id="4" colour="9FDFBF">2</column>
+     <column id="-4" colour="FFD5D5" label="Least Preferred">2</column>
+     <column id="-3" colour="FFD5D5" label="Strongly Dislike">3</column>
+     <column id="-2" colour="FFD5D5" label="Dislike">4</column>
+     <column id="-1" colour="FFD5D5" label="Somewhat Dislike">5</column>
+     <column id="0" colour="E9E9E9" label="No Preference / Neutral">8</column>
+     <column id="1" colour="9FDFBF" label="Somewhat Like">5</column>
+     <column id="2" colour="9FDFBF" label="Like">4</column>
+     <column id="3" colour="9FDFBF" label="Strongly Like">3</column>
+     <column id="4" colour="9FDFBF" label="Most Preferred">2</column>
    </map>
